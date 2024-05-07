@@ -18,3 +18,8 @@ di client didefinisikan pada
 di server pada
 
 `let listener = TcpListener::bind("127.0.0.1:8080").await?;`
+
+### 2.3
+
+![alt text](img3.png)
+Ditambahkan informasi IP dan port pada masing-masing message sebelum pesan ditampilka dengan mengubah bcast_tx
